@@ -18,7 +18,7 @@ DEBUG = process.env.DEBUG === undefined ? false : convertToBool(process.env.DEBU
 module.exports = {
     VERSION: 'v7.3.6',
     CHANNEL: 'https://t.me/remasterplugin',
-    SESSION: process.env.AMALSER_CODE === undefined ? '' : process.env.AMALSER_CODE,
+    SESSION: process.env.APARNA_CODE === undefined ? '' : process.env.APARNA_CODE,
     ANTİLİNK: process.env.ANTİ_LİNK === undefined ? 'false' : process.env.ANTİ_LİNK,
     AUTOBİO: process.env.AUTO_BİO === undefined ? 'false' : process.env.AUTO_BİO,
     FAKE: process.env.FAKE_REMOVE === undefined ? 'false' : process.env.FAKE_REMOVE,
@@ -29,7 +29,7 @@ module.exports = {
     BLOCKCHAT: process.env.BLOCK_CHAT === undefined ? false : process.env.BLOCK_CHAT,
     WELCOME: process.env.WELCOME === undefined ? 'pp' : process.env.WELCOME,
     OWNER: process.env.OWNER_NAME === undefined ? 'default' : process.env.OWNER_NAME,
-    PHONE: process.env.NUMBER === undefined ? '+919895828468' : process.env.NUMBER,   
+    PHONE: process.env.NUMBER === undefined ? '+918281370025' : process.env.NUMBER,   
     OA_NAME: process.env.DEPLOYER === undefined ? 'Amalser' : process.env.DEPLOYER,
     ALL: process.env.ALL_CAPTION === undefined ? 'Made By Amalser' : process.env.ALL_CAPTION,
     LG_LOGO: process.env.LG_LOGO === undefined ? 'https://telegra.ph/file/1986d89402b68b4f4aeca.jpg' : process.env.LG_LOGO,
