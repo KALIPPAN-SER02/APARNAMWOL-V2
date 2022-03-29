@@ -13,7 +13,7 @@ const chalk = require('chalk');
 const config = require('./config');
 const simpleGit = require('simple-git');
 const {WAConnection, MessageOptions, MessageType, Mimetype, Presence} = require('@adiwajshing/baileys');
-const {Message, StringSession, Image, Video} = require('./julie/');
+const {Message, StringSession, Image, Video} = require('./APARNAMWOL/');
 const { DataTypes } = require('sequelize');
 const { getMessage } = require("./plugins/sql/greetings");
 const git = simpleGit();
@@ -115,13 +115,13 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
         console.log(
             chalk.blueBright.italic('Confirming password...')
         );
-        if (config.AFPLK == 'amalser' || config.AFPLK == 'afamk' || config.AFPLK == 'vava' || config.AFPLK == 'Amalser') {
+        if (config.AFPLK == 'kalippanser' || config.AFPLK == 'kalippan' || config.AFPLK == 'vava' || config.AFPLK == 'Kalippanser') {
         //thanks to afnanplk
         console.log(
             chalk.green.bold('thanks for watching -key cofirmed-')
         );
          }
-         else if (config.AFPLK !== 'amalser' || config.AFPLK !== 'afamk' || config.AFPLK !== 'vava' || config.AFPLK !== 'Amalser') {
+         else if (config.AFPLK !== 'kalippanser' || config.AFPLK !== 'kalippan' || config.AFPLK !== 'vava' || config.AFPLK !== 'Kalippanser') {
          console.log(
             chalk.red.bold('make sure you have typed the correct password'));
          throw new Error("Password Error ⚠⚠ ");         
@@ -278,8 +278,8 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
                         } catch (error) {
                             if (config.NOLOG === 'off') {
                                 
-                                await conn.sendMessage(conn.user.jid, '*~_________~ Amalser ~______~*' +
-                                    '\n*🌀 Subcribe this channel other wise chance to get erorr: https://youtube.com/channel/UCT7x7a4HJ72bbMNx49Z9DTA*' +
+                                await conn.sendMessage(conn.user.jid, '*~_________~ Aparna Mwol V2 ~______~*' +
+                                    '\n*🌀 Subcribe this channel other wise chance to get erorr: https://youtube.com/channel/UC0yNrBziB3u2hzvXzJ4NnTA*' +
                                     '\n\n*⚠️ ' + error + '*\n'
                                     , MessageType.text);
                             }
