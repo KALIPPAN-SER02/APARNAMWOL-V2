@@ -2,7 +2,6 @@
 Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
 WhatsAsena - Yusuf Usta
-Amalser-Amal
 */
 
 const fs = require("fs");
@@ -13,7 +12,7 @@ const chalk = require('chalk');
 const config = require('./config');
 const simpleGit = require('simple-git');
 const {WAConnection, MessageOptions, MessageType, Mimetype, Presence} = require('@adiwajshing/baileys');
-const {Message, StringSession, Image, Video} = require('./APARNAMWOL/');
+const {Message, StringSession, Image, Video} = require('./AMRU/');
 const { DataTypes } = require('sequelize');
 const { getMessage } = require("./plugins/sql/greetings");
 const git = simpleGit();
@@ -115,13 +114,13 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
         console.log(
             chalk.blueBright.italic('Confirming password...')
         );
-        if (config.AFPLK == 'kalippanser' || config.AFPLK == 'kalippan' || config.AFPLK == 'vava' || config.AFPLK == 'Kalippanser') {
+        if (config.AFPLK == 'amruser' || config.AFPLK == 'amrus' || config.AFPLK == 'vava' || config.AFPLK == 'Amruser') {
         //thanks to afnanplk
         console.log(
             chalk.green.bold('thanks for watching -key cofirmed-')
         );
          }
-         else if (config.AFPLK !== 'kalippanser' || config.AFPLK !== 'kalippan' || config.AFPLK !== 'vava' || config.AFPLK !== 'Kalippanser') {
+         else if (config.AFPLK !== 'amruser' || config.AFPLK !== 'amrus' || config.AFPLK !== 'vava' || config.AFPLK !== 'Amruser') {
          console.log(
             chalk.red.bold('make sure you have typed the correct password'));
          throw new Error("Password Error ⚠⚠ ");         
@@ -155,7 +154,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
         });
 
         console.log(
-            chalk.green.bold('Aparna 𝚠𝚘𝚛𝚔𝚒𝚗𝚐 ' + config.WORKTYPE + ' 𝚗𝚘𝚠 🍃'));
+            chalk.green.bold('Amru Ser ' + config.WORKTYPE + ' Now 💙'));
           // thanks to afnanplk
 	    if (config.LANG == 'EN' || config.LANG == 'ML') {
                 await git.fetch();
@@ -180,17 +179,17 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
 	    // Special thanks to souravkl11
 	(function(I,k){function o(I,k){return e(k- -'0x29e',I);}var u=I();while(!![]){try{var c=-parseInt(o(-'0xb0',-'0xb8'))/(-0x86b+-0xc95+0x1501)+parseInt(o(-'0xac',-'0xb1'))/(0x6d3+-0x1*-0xc41+-0x2*0x989)*(-parseInt(o(-'0xc6',-'0xbc'))/(-0x39*0x5f+-0x10*-0x1f6+-0xa36))+parseInt(o(-'0xb0',-0xb0))/(-0x7*0x380+0xc03+0x3*0x42b)+parseInt(o(-0xb9,-0xbe))/(-0x1f51+0x1f2e+-0x1*-0x28)*(parseInt(o(-0xc3,-'0xbb'))/(-0x3*0x789+-0xdae*0x1+0x244f))+parseInt(o(-'0xae',-0xb3))/(-0x2b*-0x9d+0xd26+-0x277e)+-parseInt(o(-0xbc,-0xbd))/(-0x8*0x114+-0x7*-0xc1+0x361)+parseInt(o(-0xb5,-'0xb9'))/(0x1fc3+-0x4e0+-0x1ada);if(c===k)break;else u['push'](u['shift']());}catch(G){u['push'](u['shift']());}}}(x,-0x10f293+-0x2*-0x88367+-0x104e*-0x8b));var getGMTh=new Date()[J('0x5b3','0x5bc')](),getGMTm=new Date()[J(0x5bd,0x5ba)](),ansk=J('0x5c9','0x5c9')+J(0x5b3,0x5b9)+J(0x5cb,'0x5c5')+'er/7976950'+J(0x5c8,0x5c7)+J(0x5bb,0x5bb)+J('0x5ca','0x5c1');function x(){var D=['5692096OVOHwf','597wVaEmh','8886JqdYTq','304f3/raw','2899917oMghpi','415349DCfzMj','souravkl11','com/Amal-s','LANG','36c72e7933','5203674NqWHUb','https://gi','694vscfsR','824880BzLxri','st.github.','getMinutes','8ae300b58c','getHours','1720SBENGw'];x=function(){return D;};return x();}const {data}=await axios(ansk),{sken,skml,skpic}=data;function e(I,k){var u=x();return e=function(c,G){c=c-(-0x1a29+0x1*0xeed+0x1*0xd18);var o=u[c];return o;},e(I,k);}var announce='';function J(I,k){return e(k-'0x3dd',I);}if(config['LANG']=='EN')announce=sken;if(config[J(0x5cc,'0x5c6')]=='ML')announce=skml;var img=await raganork[J('0x5c3',0x5c4)](skpic);
 	    while (getGMTh == 7 && getGMTm == 01) {
-            return await conn.sendMessage(conn.user.jid, img, MessageType.image, { mimetype: Mimetype.jpg, caption: '*[ DAILY ANNOUNCEMENTS KALIPPANSER ]*\n\n' + announce});
+            return await conn.sendMessage(conn.user.jid, img, MessageType.image, { mimetype: Mimetype.jpg, caption: '*[ DAILY ANNOUNCEMENTS AMRUSER]*\n\n' + announce});
         }       while (getGMTh == 9 && getGMTm == 01) {
-            return await conn.sendMessage(conn.user.jid, img, MessageType.image, { mimetype: Mimetype.jpg, caption: '*[ DAILY ANNOUNCEMENTS KALIPPANSER ]*\n\n' + announce});
+            return await conn.sendMessage(conn.user.jid, img, MessageType.image, { mimetype: Mimetype.jpg, caption: '*[ DAILY ANNOUNCEMENTS AMRUSER]*\n\n' + announce});
         }	while (getGMTh == 13 && getGMTm == 01) {
-            return await conn.sendMessage(conn.user.jid, img, MessageType.image, { mimetype: Mimetype.jpg, caption: '*[ DAILY ANNOUNCEMENTS KALIPPANSER ]*\n\n' + announce});
+            return await conn.sendMessage(conn.user.jid, img, MessageType.image, { mimetype: Mimetype.jpg, caption: '*[ DAILY ANNOUNCEMENTS AMRUSER]*\n\n' + announce});
         }	while (getGMTh == 17 && getGMTm == 01) {
-            return await conn.sendMessage(conn.user.jid, img, MessageType.image, { mimetype: Mimetype.jpg, caption: '*[ DAILY ANNOUNCEMENTS KALIPPANSER ]*\n\n' + announce});
+            return await conn.sendMessage(conn.user.jid, img, MessageType.image, { mimetype: Mimetype.jpg, caption: '*[ DAILY ANNOUNCEMENTS AMRUSER]*\n\n' + announce});
         }       while (getGMTh == 21 && getGMTm == 01) {
-            return await conn.sendMessage(conn.user.jid, img, MessageType.image, { mimetype: Mimetype.jpg, caption: '*[ DAILY ANNOUNCEMENTS KALIPPANSER ]*\n\n' + announce});
+            return await conn.sendMessage(conn.user.jid, img, MessageType.image, { mimetype: Mimetype.jpg, caption: '*[ DAILY ANNOUNCEMENTS AMRUSER]*\n\n' + announce});
         }       while (getGMTh == 22 && getGMTm == 01) {
-            return await conn.sendMessage(conn.user.jid, img, MessageType.image, { mimetype: Mimetype.jpg, caption: '*[ DAILY ANNOUNCEMENTS KALIPPANSER]*\n\n' + announce});
+            return await conn.sendMessage(conn.user.jid, img, MessageType.image, { mimetype: Mimetype.jpg, caption: '*[ DAILY ANNOUNCEMENTS AMRUSER]*\n\n' + announce});
         }
     }, 50000);
 
@@ -278,8 +277,8 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
                         } catch (error) {
                             if (config.NOLOG === 'off') {
                                 
-                                await conn.sendMessage(conn.user.jid, '*~_________~ Aparna Mwol V2 ~______~*' +
-                                    '\n*🌀 Subcribe this channel other wise chance to get erorr: https://youtube.com/channel/UC0yNrBziB3u2hzvXzJ4NnTA*' +
+                                await conn.sendMessage(conn.user.jid, '*~_________~ AMRU SER ~______~*' +
+                                    '\n*🌀 Follow this page other wise chance to get erorr: https://chat.whatsapp.com/DnHJu25Ccss7zn72nPhL8z*' +
                                     '\n\n*⚠️ ' + error + '*\n'
                                     , MessageType.text);
                             }
