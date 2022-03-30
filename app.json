@@ -17,7 +17,7 @@
             "required": false
         },
          "YT_PASSWORD": {
-            "description": "PASSWORD IS small letter kalippan. Cheriya asharathil kalippan ennu adikuga.",
+            "description": "PASSWORD IS small letter kalippan. Cheriya aksharathil kalippan ennu adikuga.",
             "required": true
         },
         "LANGUAGE": {
