@@ -43,7 +43,7 @@ Project created by <a href="https://github.com/KALIPPAN-SER02">KALIPPAN-SER</a> 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/KALIPPAN-SER02/APARNAMWOL-V2.git)
 
 
-[![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://replit.com/@AjmalAchu123/Wizard-Ser-Qr-test)
+[![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://replit.com/@KalippanSer/KALIPPANSER-OR?v=1)
   
 
 ### THE HARD METHOD
