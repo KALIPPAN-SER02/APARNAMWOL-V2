@@ -50,17 +50,17 @@ Asena.addCommand({on: 'text', fromMe: false}, (async (message, match) => {
         let banned = jid.find( Jid => Jid === message.jid);
         if(banned !== undefined) return
         if (!!message.mention && message.mention[0] == '918281370025@s.whatsapp.net') {
-await message.client.sendMessage(message.jid, fs.readFileSync('./Amal_bgms_2/mention.mp3'), MessageType.audio, { mimetype: Mimetype.mp4Audio,duration: Config.SAID, contextInfo: { forwardingScore: 5, isForwarded: true }, quoted : message.data, ptt: true})
+await message.client.sendMessage(message.jid, fs.readFileSync('./uploads/mention.mp3'), MessageType.audio, { mimetype: Mimetype.mp4Audio,duration: Config.SAID, contextInfo: { forwardingScore: 5, isForwarded: true }, quoted : message.data, ptt: true})
         }
         if (!!message.mention && message.mention[0] == Config.MENTION) {
-await message.client.sendMessage(message.jid, fs.readFileSync('./Amal_bgms_2/mention.mp3'), MessageType.audio, { mimetype: Mimetype.mp4Audio,duration: Config.SAID, quoted : message.data, ptt: true})
+await message.client.sendMessage(message.jid, fs.readFileSync('./uploads/mention.mp3'), MessageType.audio, { mimetype: Mimetype.mp4Audio,duration: Config.SAID, quoted : message.data, ptt: true})
         }
         var uri = encodeURI(match[1])
 const array = ['Aliya','Aliyo','Anno','Ano','Arulle','Ayin','Baa','Baby','Bgm','Block','BombBot','Boys','Breakup','By','Chunk','Daa','Fan','Feel','Free fire','Girl','Good night','Good morning','Ha','Hai','Happy','Hii','Hi','Hlo','Hum','I love you','Intro','Kalippan','Kgf','Kalippanser','Kili','Kiss','Kozhi','Kundan','Line undo','Loo','Love vendada','Love','Lubu','Mamma','Midhun','Mine','Mm','Mood of','Myr','Myre','Name','Nanban','Nanbans','Nee','Njan nannayi','Njan seen ane','Ok','On','Onam','Ozhivaki','Poda','Podi','Poli','Power','Romantic','SedSet','Sir','Smile','Sorry','Thayoli','Va','Vaa','Vadaa','Vannu','Venda','X','alive','ambada','audio','avastha','aysheri','bea','bro','chat','com','fans','hello','indo','help','oho','pavam','phaa','pm','rashu','setvar','single','start','sticker','tata','try','umma','uyir','vellachil','welcome','xmedia','you','Aparna']
 array.map( async (a) => {
 let pattern = new RegExp(`\\b${a}\\b`, 'g');
 if(pattern.test(message.message)){
-       await message.client.sendMessage(message.jid, fs.readFileSync('./Amal_bgms_2/' + a + '.mp3'), MessageType.audio,{ mimetype: Mimetype.mp4Audio,duration: Config.SAID, ptt: true,quoted: message.data});
+       await message.client.sendMessage(message.jid, fs.readFileSync('./uploads/' + a + '.mp3'), MessageType.audio,{ mimetype: Mimetype.mp4Audio,duration: Config.SAID, ptt: true,quoted: message.data});
 }
 });
     }
