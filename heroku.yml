@@ -1,0 +1,5 @@
+build:
+  docker:
+      worker: /APARNAMWOL/Dockerfile
+run:
+   worker: npm start
