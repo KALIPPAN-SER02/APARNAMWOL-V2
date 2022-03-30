@@ -92,7 +92,7 @@ All setvars are
 
     *happy using Aᴘᴀʀɴᴀ ᴍᴡᴏʟ bot ❣️*
 
-*Editing And Devaloper : Kᴀʟɪᴘᴘᴀɴ-Mɪᴅʜᴜɴr*
+*Editing And Devaloper : Kᴀʟɪᴘᴘᴀɴ*
 
 *Erorr Fixing : Farhan -Julie Mwol 💌*
 
