@@ -473,19 +473,16 @@
             "DELETE_USAGE": "Deletes *all* your saved notes.",
             "SUCCESSFULLY_DELETED": "Successfully deleted all your notes."
         },
-        "instagram": {
-            "NEED_WORD": "*Please enter username of any instagram account.*",
-            "USAGE": ".insta <userName>",
-            "DESC": "Fetches user informations from instagram",
-            "LOADING": "*Searching*",
-            "USERNAME": "Username",
-            "FULL_NAME": "Fullname",
-            "PRIVATE": "Private",
-            "VERIFIED": "Verified",
-            "ACCOUNT": "Account privacy",
-            "PUBLIC": "Public",
-            "HIDDEN": "Hidden",
-            "NOT_FOUND":"User not found: "
+        "insta": {
+            "INSTA_DESC": "Download from instagram like post, igtv, reels\n.insta url or reply to a url",
+            "NEED_REPLY": "*Give me a url.*",
+            "DOWNLOADING": "```Downloading...```",
+            "STORY_DESC": "Download stories of given username\n.story username or reply to a username or story url",
+            "DOWNLOADING_STORY": "```Donwloading {} stories```",
+            "NOT_FOUND": "*Not found!*",
+            "SIZE": "*Video size is {}MB, I can't upload it.sd link :* {}\n*hd link :* {}",
+            "CAPTION": "*HD link :* {}",
+            "FB_DESC": "Download facebook video."
         },
         "github": {
             "GİTHUB_DESC": "Collects github information from the given username.\n⌨️ Example: .github phaticusthiccy",
