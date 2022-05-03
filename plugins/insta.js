@@ -1,4 +1,4 @@
-const Asena = require("../Utilis/events")
+const Asena = require("../events")
 const { MessageType, Mimetype } = require("@adiwajshing/baileys")
 const { getBuffer, igStory, downVideo } = require("../Utilis/download")
 const { instagram } = require("../Utilis/Misc")
